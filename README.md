@@ -1,6 +1,6 @@
 # Flutter Monorepo: Localization & Accessibility
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/example/repo/deploy_web.yml?branch=main&style=flat-square)](https://github.com/example/repo/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/allingaming/localization-sample/deploy_web.yml?branch=main&style=flat-square)](https://github.com/allingaming/localization-sample/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Flutter](https://img.shields.io/badge/Flutter-3.0%2B-02569B?style=flat-square&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Melos](https://img.shields.io/badge/Melos-Enabled-orange?style=flat-square)](https://melos.invertase.dev)
