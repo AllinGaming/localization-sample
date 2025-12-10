@@ -3,7 +3,7 @@
 [![Build Status](https://img.shields.io/github/actions/workflow/status/allingaming/localization-sample/deploy_web.yml?branch=main&style=flat-square)](https://github.com/allingaming/localization-sample/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Flutter](https://img.shields.io/badge/Flutter-3.0%2B-02569B?style=flat-square&logo=flutter&logoColor=white)](https://flutter.dev)
-[![Melos](https://img.shields.io/badge/Melos-Enabled-orange?style=flat-square)](https://melos.invertase.dev)
+[![Melos](https://img.shields.io/badge/Pages-Enabled-green?style=flat-square)](https://allingaming.github.io/localization-sample)
 [![Style: Flutter Lints](https://img.shields.io/badge/style-flutter__lints-blue?style=flat-square)](https://pub.dev/packages/flutter_lints)
 
 A production-ready reference implementation for a Flutter Melos monorepo, featuring type-safe internationalization (i18n) and a reusable accessibility design system.
