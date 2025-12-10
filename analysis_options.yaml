@@ -1,0 +1,28 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - "**/*.i69n.dart"
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+
+linter:
+  rules:
+    # Error prevention
+    always_declare_return_types: true
+    unnecessary_await_in_return: true
+    avoid_void_async: true
+    cancel_subscriptions: true
+    close_sinks: true
+    
+    # Style & Best Practices
+    prefer_single_quotes: true
+    prefer_final_locals: true
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    avoid_print: true
+    sort_child_properties_last: true
+    require_trailing_commas: true
+    
+    # Documentation
+    public_member_api_docs: false # Too strict for this example, but good for packages

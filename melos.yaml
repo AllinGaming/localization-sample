@@ -1,0 +1,28 @@
+name: i69n_example
+packages:
+  - packages/*
+
+scripts:
+  generate:i18n:
+    run: flutter pub run build_runner build --delete-conflicting-outputs
+    exec:
+      concurrency: 1
+    packageFilters:
+      scope: app_localization
+    description: Generate i69n translation files.
+
+  test:
+    run: flutter test
+    exec:
+      concurrency: 1
+    packageFilters:
+      dirExists: test
+    description: Run all Flutter tests in the workspace.
+
+  run:example:
+    run: flutter run -d chrome
+    exec:
+      concurrency: 1
+    packageFilters:
+      scope: example_app
+    description: Run the example app on Chrome.

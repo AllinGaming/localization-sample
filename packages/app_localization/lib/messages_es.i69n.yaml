@@ -1,0 +1,12 @@
+generic:
+  ok: Aceptar
+  done: Hecho
+  cancel: Cancelar
+
+main:
+  title: Ejemplo i69n
+  welcome(String name): Hola $name!
+  counter:
+    zero: Has hecho clic cero veces
+    one: Has hecho clic una vez
+    many(int count): Has hecho clic $count veces

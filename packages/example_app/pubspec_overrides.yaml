@@ -1,0 +1,6 @@
+# melos_managed_dependency_overrides: app_accessibility,app_localization
+dependency_overrides:
+  app_accessibility:
+    path: ../app_accessibility
+  app_localization:
+    path: ../app_localization

@@ -1,0 +1,12 @@
+generic:
+  ok: OK
+  done: Fertig
+  cancel: Abbrechen
+
+main:
+  title: i69n Beispiel
+  welcome(String name): Hallo $name!
+  counter:
+    zero: Sie haben null mal geklickt
+    one: Sie haben einmal geklickt
+    many(int count): Sie haben $count mal geklickt

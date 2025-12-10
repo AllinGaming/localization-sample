@@ -1,0 +1,34 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+
+      - name: Bootstrap Workspace
+        run: |
+          dart pub global activate melos
+          melos bootstrap
+
+      - name: Generate Localization
+        run: melos run generate:i18n
+
+      - name: Build Web
+        working-directory: packages/example_app
+        run: flutter build web --base-href /agy9/ --release
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./packages/example_app/build/web

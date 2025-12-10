@@ -1,0 +1,12 @@
+generic:
+  ok: حسنا
+  done: تم
+  cancel: إلغاء
+
+main:
+  title: مثال i69n
+  welcome(String name): أهلا $name!
+  counter:
+    zero: لم تقم بالنقر
+    one: قمت بالنقر مرة واحدة
+    many(int count): قمت بالنقر $count مرات
